@@ -1,3 +1,5 @@
 PostgreSQL ha tomado mucha relevancia hoy dia gracias a la nube, dada que es la base de datos opensource mas completa que puedas encontrar muchos proveedores de nube han construido recursos PaaS de orden DBaaS para dar servico con base a este proyecto.
 
 Adicionalmente proyectos como Hasura han hecho que se empiece a ver con buenos ojos servicios con base opensource que permitan la rapida programación de proyectos en nube.
+
+Todo el proceso de reportar un bug es super detallado, ademas debes tener en cuenta que hayas hecho todos los pasos para validar que no sea un bug correguido en nuevas versiones o que ya sea un bug reportado. El ecosistema de postgreSQL es muy grande, no se nota dado que nadie esta buscando protagonismo todos colaboran con la mejora continua de la herramienta.
