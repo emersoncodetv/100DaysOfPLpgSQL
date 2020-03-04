@@ -3,3 +3,23 @@ PostgreSQL ha tomado mucha relevancia hoy dia gracias a la nube, dada que es la 
 Adicionalmente proyectos como Hasura han hecho que se empiece a ver con buenos ojos servicios con base opensource que permitan la rapida programaciÃ³n de proyectos en nube.
 
 Todo el proceso de reportar un bug es super detallado, ademas debes tener en cuenta que hayas hecho todos los pasos para validar que no sea un bug correguido en nuevas versiones o que ya sea un bug reportado. El ecosistema de postgreSQL es muy grande, no se nota dado que nadie esta buscando protagonismo todos colaboran con la mejora continua de la herramienta.
+
+
+
+-- Esto es un comentario, sirve para la documentación del código 
+
+-- Para usar postgresql a través de docker 
+
+-- Con el bash de git e instalado docker windows
+
+-- Insancia una nueva DB
+$ docker run --rm --name pg-docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres:12.2
+
+-- Se conecta por bash al contenedor
+$ winpty docker exec -it -u postgres pg-docker bash
+
+-- Crea una base de datos
+$ createdb mydb
+
+
+
