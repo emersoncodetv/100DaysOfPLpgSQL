@@ -10,6 +10,14 @@ $ winpty docker exec -it -u postgres pg-docker bash
 
 $ createdb mydb
 
+-- Accediendo a la base de datos a través de PostgreSQL interactive terminal psql 
+
+$ winpty docker exec -it -u postgres pg-docker bash
+
+$ psql mydb
+
+$ psql -U postgres mydb
+
 
 SELECT 4 * 3;
 
