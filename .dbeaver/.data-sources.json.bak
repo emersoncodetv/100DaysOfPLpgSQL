@@ -51,8 +51,8 @@
 			"configuration": {
 				"host": "localhost",
 				"port": "5433",
-				"database": "postgres",
-				"url": "jdbc:postgresql://localhost:5433/postgres",
+				"database": "mydb",
+				"url": "jdbc:postgresql://localhost:5433/mydb",
 				"home": "PostgreSQL Binaries",
 				"type": "dev",
 				"provider-properties": {

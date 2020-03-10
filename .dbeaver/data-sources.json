@@ -50,9 +50,9 @@
 			"read-only": false,
 			"configuration": {
 				"host": "localhost",
-				"port": "5433",
+				"port": "5432",
 				"database": "mydb",
-				"url": "jdbc:postgresql://localhost:5433/mydb",
+				"url": "jdbc:postgresql://localhost:5432/mydb",
 				"home": "PostgreSQL Binaries",
 				"type": "dev",
 				"provider-properties": {

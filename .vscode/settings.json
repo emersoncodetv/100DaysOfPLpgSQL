@@ -1,0 +1,31 @@
+{
+  "editor.fontSize": 16,
+  "editor.rulers": [50, 60, 80],
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#ff4081"
+  },
+  "git.ignoreLimitWarning": true,
+  "editor.tabSize": 2,
+  "vsicons.associations.files": [
+    {
+      "icon": "test",
+      "filename": false,
+      "extensions": ["test.json"],
+      "format": "svg",
+      "overrides": "testjs"
+    },
+    {
+      "icon": "coffeescript",
+      "filename": false,
+      "extensions": ["mock.js"],
+      "format": "svg",
+      "overrides": "coffeescript"
+    }
+  ],
+  "vsicons.associations.folders": [
+    {
+      "icon": "test",
+      "extensions": ["@data-simulated"]
+    }
+  ]
+}
