@@ -1,6 +1,6 @@
--- Esto es un comentario, sirve para la documentación del código 
+-- Esto es un comentario, sirve para la documentaciï¿½n del cï¿½digo 
 
--- Para usar postgresql a través de docker 
+-- Para usar postgresql a travï¿½s de docker 
 -- Con el bash de git e instalado docker windows
 
 -- Insancia una nueva DB
@@ -10,7 +10,7 @@ $ winpty docker exec -it -u postgres pg-docker bash
 
 $ createdb mydb
 
--- Accediendo a la base de datos a través de PostgreSQL interactive terminal psql 
+-- Accediendo a la base de datos a travï¿½s de PostgreSQL interactive terminal psql 
 
 $ winpty docker exec -it -u postgres pg-docker bash
 
@@ -19,5 +19,9 @@ $ psql mydb
 $ psql -U postgres mydb
 
 
+<<<<<<< HEAD
 SELECT 4 * 3 + 7;
 
+=======
+SELECT 4 * 3;
+>>>>>>> 05cfbda308b373c4f2e13b442765c9309a314515

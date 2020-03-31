@@ -39,8 +39,7 @@
 					"@dbeaver-show-template-db@": "false",
 					"postgresql.dd.plain.string": "false",
 					"postgresql.dd.tag.string": "false"
-				},
-				"handlers": {}
+				}
 			}
 		},
 		"postgres-jdbc-170a7802cc6-3c681d82312b6b8e": {
@@ -51,9 +50,9 @@
 			"read-only": false,
 			"configuration": {
 				"host": "localhost",
-				"port": "5432",
-				"database": "mydb2",
-				"url": "jdbc:postgresql://localhost:5432/mydb2",
+				"port": "5433",
+				"database": "mydb",
+				"url": "jdbc:postgresql://localhost:5433/mydb",
 				"home": "PostgreSQL Binaries",
 				"type": "dev",
 				"provider-properties": {
