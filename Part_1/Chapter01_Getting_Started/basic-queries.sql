@@ -19,5 +19,5 @@ $ psql mydb
 $ psql -U postgres mydb
 
 
-SELECT 4 * 3;
+SELECT 4 * 3 + 7;
 
