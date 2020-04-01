@@ -12,7 +12,7 @@ Todo el proceso de reportar un bug es super detallado, ademas debes tener en cue
 
 -- Con el bash de git e instalado docker windows
 
--- Insancia una nueva DB
+-- Instancia una nueva DB
 $ docker run --rm --name pg-docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres:12.2
 
 -- Se conecta por bash al contenedor
