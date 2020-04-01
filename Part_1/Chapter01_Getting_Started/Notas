@@ -21,6 +21,5 @@ $ winpty docker exec -it -u postgres pg-docker bash
 -- Crea una base de datos
 $ createdb mydb
 
-
-
 --
+Aprendiendo de la documentación de PostgreSQL

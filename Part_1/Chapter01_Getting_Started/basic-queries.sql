@@ -19,9 +19,5 @@ $ psql mydb
 $ psql -U postgres mydb
 
 
-<<<<<<< HEAD
 SELECT 4 * 3 + 7;
 
-=======
-SELECT 4 * 3;
->>>>>>> 05cfbda308b373c4f2e13b442765c9309a314515
