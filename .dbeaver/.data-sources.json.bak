@@ -72,7 +72,8 @@
 			"configuration": {
 				"host": "localhost",
 				"port": "5433",
-				"url": "jdbc:postgresql://localhost:5433/",
+				"database": "demo",
+				"url": "jdbc:postgresql://localhost:5433/demo",
 				"type": "dev",
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "false",
