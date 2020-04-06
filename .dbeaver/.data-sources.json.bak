@@ -4,21 +4,23 @@
 		"postgres-jdbc-17086351d96-76401bd5568209ce": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
-			"name": "PostgreSQL - postgres",
+			"name": "postgresapp - mydb",
 			"save-password": true,
 			"read-only": false,
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
-				"database": "emerson",
-				"url": "jdbc:postgresql://localhost:5432/emerson",
+				"database": "mydb",
+				"url": "jdbc:postgresql://localhost:5432/mydb",
 				"type": "dev",
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "false",
 					"@dbeaver-show-template-db@": "false",
 					"postgresql.dd.plain.string": "false",
 					"postgresql.dd.tag.string": "false"
-				}
+				},
+				"auth-model": "native",
+				"handlers": {}
 			}
 		},
 		"postgres-jdbc-170a77615b4-4760bd68424155ac": {
@@ -45,35 +47,15 @@
 		"postgres-jdbc-170a7802cc6-3c681d82312b6b8e": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
-			"name": "PostgreSQL - mydb",
-			"save-password": true,
-			"read-only": false,
-			"configuration": {
-				"host": "localhost",
-				"port": "5432",
-				"database": "mydb",
-				"url": "jdbc:postgresql://localhost:5432/mydb",
-				"home": "PostgreSQL Binaries",
-				"type": "dev",
-				"provider-properties": {
-					"@dbeaver-show-non-default-db@": "false",
-					"@dbeaver-show-template-db@": "false",
-					"postgresql.dd.plain.string": "false",
-					"postgresql.dd.tag.string": "false"
-				}
-			}
-		},
-		"postgres-jdbc-171353062d3-4d5d395736657269": {
-			"provider": "postgresql",
-			"driver": "postgres-jdbc",
-			"name": "PostgreSQL - localhost",
+			"name": "docker - mydb",
 			"save-password": true,
 			"read-only": false,
 			"configuration": {
 				"host": "localhost",
 				"port": "5433",
-				"database": "demo",
-				"url": "jdbc:postgresql://localhost:5433/demo",
+				"database": "mydb",
+				"url": "jdbc:postgresql://localhost:5433/mydb",
+				"home": "PostgreSQL Binaries",
 				"type": "dev",
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "false",

@@ -11,9 +11,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>Part_1/Chapter02_The_SQL_Language/basic.sql</name>
+			<name>Part_1/Chapter02_The_SQL_Language/basic.pgsql</name>
 			<type>1</type>
-			<location>//Users/emerson/Documents/100DAYS/100DaysOfPLpgSQL/Part_1/Chapter02_The_SQL_Language/basic.sql</location>
+			<location>/Users/emerson/Documents/100DAYS/100DaysOfPLpgSQL/Part_1/Chapter02_The_SQL_Language/basic.sql</location>
 		</link>
 	</linkedResources>
 </projectDescription>
