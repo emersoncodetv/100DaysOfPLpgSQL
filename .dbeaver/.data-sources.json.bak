@@ -23,27 +23,6 @@
 				"handlers": {}
 			}
 		},
-		"postgres-jdbc-170a77615b4-4760bd68424155ac": {
-			"provider": "postgresql",
-			"driver": "postgres-jdbc",
-			"name": "PostgreSQL - postgres 2",
-			"save-password": true,
-			"read-only": false,
-			"configuration": {
-				"host": "localhost",
-				"port": "5432",
-				"database": "postgres",
-				"url": "jdbc:postgresql://localhost:5432/postgres",
-				"home": "PostgreSQL Binaries",
-				"type": "dev",
-				"provider-properties": {
-					"@dbeaver-show-non-default-db@": "false",
-					"@dbeaver-show-template-db@": "false",
-					"postgresql.dd.plain.string": "false",
-					"postgresql.dd.tag.string": "false"
-				}
-			}
-		},
 		"postgres-jdbc-170a7802cc6-3c681d82312b6b8e": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",

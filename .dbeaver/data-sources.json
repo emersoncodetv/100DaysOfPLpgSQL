@@ -19,8 +19,7 @@
 					"postgresql.dd.plain.string": "false",
 					"postgresql.dd.tag.string": "false"
 				},
-				"auth-model": "native",
-				"handlers": {}
+				"auth-model": "native"
 			}
 		},
 		"postgres-jdbc-170a7802cc6-3c681d82312b6b8e": {
@@ -42,8 +41,23 @@
 					"postgresql.dd.plain.string": "false",
 					"postgresql.dd.tag.string": "false"
 				},
-				"auth-model": "native",
-				"handlers": {}
+				"auth-model": "native"
+			}
+		}
+	},
+	"virtual-models": {
+		"postgres-jdbc-17086351d96-76401bd5568209ce": {
+			"mydb": {
+				"public": {
+					":cities": {
+						"constraints": {
+							"VIRTUAL_PK": {
+								"type": "vpk",
+								"useAllColumns": true
+							}
+						}
+					}
+				}
 			}
 		}
 	},
