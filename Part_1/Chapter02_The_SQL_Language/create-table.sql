@@ -33,8 +33,10 @@ from
 insert
 	into
 	cities
-values ('San Francico',
-'(-194.0, 53.0)')
+values ('San Francisco',
+'(-194.0, 53.0)');
+
+
 select
 	*
 from
@@ -109,3 +111,51 @@ select distinct
 w.city , w.temperature_low
 from weather w
 order by city ;
+
+
+
+-- JOIN entre tablas
+
+select * from weather w ;
+select * from cities c ;
+
+select * from weather w , cities c where w.city = c.name;
+
+select w.city , w.temperature_low, w.temperature_high , c."location" from weather w , cities c where w.city = c."name" ;
+
+
+select w.city , w.temperature_low, w.temperature_high , c."location" from weather w , cities c ;
+
+
+select * from weather inner join cities on (weather.city = cities.name);
+
+
+
+select * from weather w left outer join cities c on w.city = c."name" ;
+
+select * from weather w right outer join cities c on w.city = c."name" ;
+
+select * from weather w full join cities c on w.city = c."name" ;
+
+select  
+	w1.city,
+	w1.temperature_low as low,
+	w1.temperature_high as high,
+	w2.city,
+	w2.temperature_low as low,
+	w2.temperature_high as high
+from weather w1, weather w2 
+	where (w1.temperature_low < w2.temperature_low  
+	and w1.temperature_high > w2.temperature_high) ;
+
+
+
+
+
+
+
+
+
+
+
+
